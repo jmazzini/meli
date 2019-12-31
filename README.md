@@ -73,4 +73,21 @@ se toma como limite la mitad de la raya mas larga recibida, para diferenciar los
 se hacen consideraciones similares para los espaciados de simbolos, de letras y de palabras.
 Se tomo como fin de mensaje la pausa prolongada.
 
+El proyecto se deployo en heroku y las url de acceso son 
+
+https://meli-morse-jmazzini.herokuapp.com/translate/2morse
+{
+   "text":"HOLA MUNDO lala lalal lala"
+}
+
+https://meli-morse-jmazzini.herokuapp.com/translate/2textfrombinary
+{
+   "text":"0000000011011011001110000011111100011111100111111000000011101111111101110111000000011000111111000000000000000000000000000000000000000000111111001111110000000110000110111111110111011100000011011100000000000"
+}
+
+https://meli-morse-jmazzini.herokuapp.com/translate/2text
+{
+   "text":".... --- .-.. .-  -- . .-.. .."
+}
+
 
