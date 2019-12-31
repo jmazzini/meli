@@ -19,7 +19,7 @@ public class MorseTranslatorController {
 	private MorseTraslatorService morseTraslatorService;
 	
 	@PostMapping("/2textfrombinary")
-	public TranslatorResponse decodeBits2Morse(TranslatorRequest request) {
+	public TranslatorResponse decodeBits2Morse(@RequestBody TranslatorRequest request) {
 		return translate(request,Language.BINARY);
 	}
 	

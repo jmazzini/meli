@@ -65,3 +65,12 @@ $ curl -X POST "http://meli.com/translate/2morse" -d "{text: 'HOLA MELI'}"
 
 { code:200, response: '.... --- .-.. .- -- . .-.. ..'}
 ```
+
+# Consideraciones
+
+Se basa en el standard de morse international, se flexibilizan los tiempos para adecuarse al problema y poder resolver problemas de frecuencia.
+se toma como limite la mitad de la raya mas larga recibida, para diferenciar los puntos de rayas
+se hacen consideraciones similares para los espaciados de simbolos, de letras y de palabras.
+Se tomo como fin de mensaje la pausa prolongada.
+
+
